@@ -7,7 +7,7 @@ on:
 env:
   AWS_REGION: "us-east-1"
   ECR_REPOSITORY: "test"
-  ECS_TASK_DEFINITION: "./test.json"
+  ECS_TASK_DEFINITION: "./test-revision5.json"
   CONTAINER_NAME: "test"
 
 permissions:
