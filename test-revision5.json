@@ -1,5 +1,5 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:424352279572:task-definition/test:5",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:424352279572:task-definition/test:6",
     "containerDefinitions": [
         {
             "name": "test",
