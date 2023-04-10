@@ -61,3 +61,8 @@ jobs:
         service: ${{ env.ECS_SERVICE }}
         cluster: ${{ env.ECS_CLUSTER }}
         wait-for-service-stability: true
+        
+    - uses: isbang/sqs-action@v0.1.1
+      with:
+        sqs-url: https://sqs.us-east-1.amazonaws.com/424352279572/triger
+        message: 'text'
