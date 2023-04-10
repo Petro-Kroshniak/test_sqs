@@ -1,9 +1,9 @@
 {
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:424352279572:task-definition/test:4",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:424352279572:task-definition/test:6",
     "containerDefinitions": [
         {
             "name": "test",
-            "image": "424352279572.dkr.ecr.us-east-1.amazonaws.com/test:latest",
+            "image": "424352279572.dkr.ecr.us-east-1.amazonaws.com/test:fc92d1a28991dd1af4f87dac442601beb4fb5069",
             "cpu": 0,
             "portMappings": [
                 {
@@ -40,7 +40,7 @@
     "family": "test",
     "executionRoleArn": "arn:aws:iam::424352279572:role/ecsTaskExecutionRole",
     "networkMode": "awsvpc",
-    "revision": 4,
+    "revision": 6,
     "volumes": [],
     "status": "ACTIVE",
     "requiresAttributes": [
@@ -83,7 +83,7 @@
         "cpuArchitecture": "X86_64",
         "operatingSystemFamily": "LINUX"
     },
-    "registeredAt": "2023-04-10T11:41:00.831Z",
+    "registeredAt": "2023-04-10T13:55:14.846Z",
     "registeredBy": "arn:aws:iam::424352279572:user/cloud_user",
     "tags": []
 }
